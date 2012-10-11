@@ -153,6 +153,10 @@ module Fog
       request :list_hosts
       request :get_host_details
 
+      # Cloudpipe
+      request :create_cloudpipe
+      request :list_cloudpipes      
+
 
       class Mock
         attr_reader :auth_token
